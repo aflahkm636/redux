@@ -1,0 +1,42 @@
+/* Navbar container */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #f2f2f2;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.secondary{
+    padding: 1rem 2rem;
+  display: flex;
+  gap: 1rem;
+}
+nav a.active {
+  /* Example: Change text color */
+  color: #007bff; /* Or any color that indicates it's active */
+
+  /* Example: Add a bottom border */
+  /* border-bottom: 2px solid #007bff; */
+
+  /* Example: Make the font bold */
+  font-weight: bolder;
+
+  /* Example: Change background color (be mindful of contrast) */
+  background-color: #f8f9fa;
+  
+}
+/* Nav links */
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  background-color: #ddd;
+  color: #000;
+}
