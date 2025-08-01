@@ -7,3 +7,7 @@
                 return state
     }
 }
+
+export const toggleTheme = () => {
+  return { type: "TOGGLE" };
+};
