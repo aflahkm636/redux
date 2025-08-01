@@ -19,6 +19,5 @@ store.subscribe(() => {
   console.log('State changed:', store.getState());
 });
 
-store.dispatch({ type: 'INCREMENT' }); // State: 1
-store.dispatch({ type: 'INCREMENT' }); // State: 2
-store.dispatch({ type: 'DECREMENT' }); // State: 1
+store.dispatch({ type: 'INCREMENT' }); 
+store.dispatch({ type: 'DECREMENT' }); 
