@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import {Provider} from 'react-redux'
-import UserStore from './components/fetchUser/UserStore.jsx'
+import { todoStore } from './components/Todo/TodoStore.jsx'
  
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store= {UserStore}>
+    <Provider store= {todoStore}>
        <App />
     </Provider>
    
